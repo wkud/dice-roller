@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     private fun onRollButtonClick() {
         resultTextView.text = "= $totalResult"
         rolled = true
