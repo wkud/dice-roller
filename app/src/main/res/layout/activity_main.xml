@@ -9,17 +9,17 @@
 
     <TextView
         android:id="@+id/resultTextView"
-        android:layout_width="106dp"
-        android:layout_height="110dp"
-        android:gravity="center"
+        android:layout_width="262dp"
+        android:layout_height="108dp"
+        android:gravity="end|center_vertical"
         android:text="_"
-        android:textSize="80dp"
+        android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintHorizontal_bias="0.791"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.288" />
 
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/gridLayout"
@@ -39,7 +39,7 @@
             android:layout_height="60dp"
             android:background="#FFFFFF"
             android:text="d100"
-            android:textSize="15dp"
+            android:textSize="15sp"
             app:layout_columnWeight="1"
             app:layout_gravity="center"
             app:layout_rowWeight="1" />
@@ -51,7 +51,7 @@
             android:layout_height="60dp"
             android:background="#FFFFFF"
             android:text="d20"
-            android:textSize="15dp"
+            android:textSize="15sp"
             app:layout_columnWeight="1"
             app:layout_gravity="center"
             app:layout_rowWeight="1" />
@@ -62,7 +62,7 @@
             android:layout_height="60dp"
             android:background="#FFFFFF"
             android:text="d12"
-            android:textSize="15dp"
+            android:textSize="15sp"
             app:layout_columnWeight="1"
             app:layout_gravity="center"
             app:layout_rowWeight="1" />
@@ -73,7 +73,7 @@
             android:layout_height="60dp"
             android:background="#FFFFFF"
             android:text="d10"
-            android:textSize="15dp"
+            android:textSize="15sp"
             app:layout_columnWeight="1"
             app:layout_gravity="center"
             app:layout_rowWeight="1" />
@@ -84,7 +84,7 @@
             android:layout_height="60dp"
             android:background="#FFFFFF"
             android:text="d8"
-            android:textSize="15dp"
+            android:textSize="15sp"
             app:layout_columnWeight="1"
             app:layout_gravity="center"
             app:layout_rowWeight="1" />
@@ -95,7 +95,7 @@
             android:layout_height="60dp"
             android:background="#FFFFFF"
             android:text="d6"
-            android:textSize="15dp"
+            android:textSize="15sp"
             app:layout_columnWeight="1"
             app:layout_gravity="center"
             app:layout_rowWeight="1" />
@@ -106,7 +106,7 @@
             android:layout_height="60dp"
             android:background="#FFFFFF"
             android:text="d4"
-            android:textSize="15dp"
+            android:textSize="15sp"
             app:layout_columnWeight="1"
             app:layout_gravity="center"
             app:layout_rowWeight="1" />
@@ -117,7 +117,7 @@
             android:layout_height="60dp"
             android:background="#FFFFFF"
             android:text="d3"
-            android:textSize="15dp"
+            android:textSize="15sp"
             app:layout_columnWeight="1"
             app:layout_gravity="center"
             app:layout_rowWeight="1" />
@@ -129,7 +129,7 @@
             android:layout_height="60dp"
             android:background="#FFFFFF"
             android:text="d2"
-            android:textSize="15dp"
+            android:textSize="15sp"
             app:layout_columnWeight="1"
             app:layout_gravity="center"
             app:layout_rowWeight="1" />
@@ -146,18 +146,18 @@
         android:insetRight="0dp"
         android:insetBottom="0dp"
         android:text="Roll"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/equation"
-        android:layout_width="348dp"
-        android:layout_height="89dp"
-        android:text="d6+d4+d8"
-        android:textSize="20dp"
+        android:id="@+id/equationTextView"
+        android:layout_width="342dp"
+        android:layout_height="91dp"
+        android:text="Let's roll some dice!"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/resultTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
