@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        buttonD6.setOnClickListener {
+        buttonD100.setOnClickListener {
             resultTextView.text = randomize(6)
         }
 
